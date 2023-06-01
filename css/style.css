@@ -1,0 +1,223 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserrat';
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header {
+    background: #282828;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__icons-wrap {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.menu__link {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.banner {
+    background: url(../img/banner.png) center center / cover no-repeat;
+   
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 30px;
+}
+.banner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 51px;
+}
+.banner__title {
+    font-family: "ProstoOne";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.banner__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #171718;
+    text-transform: uppercase;
+}
+.banner__text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    background: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.earphones__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.earphone__white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.earphone__black {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.earphone__white-p {    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.body {
+    background: #151515;
+}
+.earphone__black-p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.earphone__gray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.earphone__gray-p-one {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+.earphone__gray-p-two {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+.earphone__img {
+    display: flex;
+    align-items: center;
+}
+.line {
+    height: 1px;
+    width: 61px;
+    background: #C4C4C4;
+}
+.mobilephones__wrap {
+    display: flex;
+    gap: 30px;
+    margin-top: 79px;
+}
+.model {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+padding: 0 40px;
+    border-radius: 6px;
+}
+.mobilephone__h {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.mobilephone__price {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.mobilephone__text {
+    background: #151515;
+    margin-bottom: 15px;
+    height: 34px;
+    width: 161px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background: #282828;
+    height: 215px; 
+    display: flex;
+    align-items: center; 
+    margin-top: 55px;
+}
+.footer__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer__menu-link{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+    width: 50px;
+    color: #FFFFFF;
+}

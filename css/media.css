@@ -1,0 +1,81 @@
+@media screen and (max-width:1111px){
+    .mobilephones__wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .earphone__gray{
+        flex-direction: column;
+    }
+    .earphone__img{
+        flex-direction: column;
+        /* gap: 60px; */
+    }
+    .line{
+        margin: 30px 0;
+    }
+}
+@media screen and (max-width:1015px){
+    .earphone__white{
+        flex-direction: column;
+    }
+    .earphone__black{
+        flex-direction: column;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .banner__title{
+        font-size: 85px;
+    }
+    .banner__text-wrap{
+        width: 192px;
+        height: 47px;
+    }
+}
+@media screen and (max-width:580px){
+    .footer__wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner__title{
+        font-size: 60px;
+    }
+    .earphone__white img{
+       width: 100%;
+    }
+    .earphone__black img{
+        width: 100%;
+    }
+    .earphone__img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:455px){
+    .header__nav{
+        flex-direction: column;
+       gap: 10px;
+    }
+    .nav__menu{
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 15px;
+    }
+    .header__icons-wrap{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:425px){
+.banner__title{
+    font-size: 40px;
+}
+.banner__text-wrap {
+    width: 178px;
+    height: 43px;
+}
+.banner__text{
+    font-size: 15px;
+}
+}
